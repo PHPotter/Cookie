@@ -1,2 +1,2 @@
-# Session
-Open Source PHP 8 Session Management
+# Cookie
+Open Source PHP 8 Cookie
