@@ -1,6 +1,6 @@
 {
-    "name": "potter/session",
-    "description": "Open Source PHP 8 Session Management",
+    "name": "potter/cookie",
+    "description": " Open Source PHP 8 Cookie",
     "minimum-stability": "dev",
     "license": "MIT",
     "type": "library",
@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Potter\\": "Potter/"
+            "Potter\\Session\\Cookie\\": "Potter/Session/Cookie"
         }
     },
     "require": {
