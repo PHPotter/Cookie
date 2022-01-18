@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Potter\\Session\\Cookie\\": "Potter/Session/Cookie"
+            "Potter\\Cookie\\": "Potter/Cookie"
         }
     },
     "require": {
