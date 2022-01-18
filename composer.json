@@ -1,6 +1,6 @@
 {
     "name": "potter/cookie",
-    "description": " Open Source PHP 8 Cookie",
+    "description": "Open Source PHP 8 Cookie",
     "minimum-stability": "dev",
     "license": "MIT",
     "type": "library",
