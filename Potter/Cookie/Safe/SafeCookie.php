@@ -23,7 +23,7 @@ final class SafeCookie extends AbstractSafeCookie
 
     private function matchProtocol(): void
     {
-        if (isset($_SERVER['HTTPS']) || empty($_SERVER['HTTPS']))
+        if (!isset($_SERVER['HTTPS']) || empty($_SERVER['HTTPS']))
             $this->setPlain();
             return;
         $this->secure();
