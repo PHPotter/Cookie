@@ -14,5 +14,5 @@ trait CookieScriptingTrait
         $this->setOption(SafeCookieInterface::HTTPONLY, true);
     }
 
-    abstract public function setOption(string $option, string $value): void;
+    abstract public function setOption(string $option, bool|int|string $value): void;
 }
