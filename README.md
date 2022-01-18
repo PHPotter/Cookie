@@ -1,4 +1,4 @@
-# Cookie
+# SafeCookie
 Open Source PHP 8 Cookie
 
 [![Build Status](https://scrutinizer-ci.com/g/PHPotter/Cookie/badges/build.png?b=main)](https://scrutinizer-ci.com/g/PHPotter/Cookie/build-status/main)
