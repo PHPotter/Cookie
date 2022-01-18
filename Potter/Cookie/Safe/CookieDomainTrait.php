@@ -24,5 +24,5 @@ trait CookieDomainTrait
         $this->setOption('domain', $domain);
     }
 
-    abstract public function setOption(string $option, string $value): void;
+    abstract public function setOption(string $option, bool|int|string $value): void;
 }
