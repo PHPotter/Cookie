@@ -2,7 +2,7 @@
 
 namespace Potter\Cookie;
 
-class Cookie extends AbstractCookie
+abstract class Cookie extends AbstractCookie
 {
     use CookieTrait;
 }
